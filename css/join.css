@@ -1,0 +1,353 @@
+main>h2 {
+    margin: 103px 0 63px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    color: #333;
+    line-height: 80px;
+    letter-spacing: -1px;
+}
+
+section {
+    width: 100%;
+    padding: 80px 0 160px 0;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+#membership_wrap {
+    width: 1440px;
+    margin: auto;
+}
+
+/*gray_wrap start*/
+#gray_wrap {
+    margin-bottom: 80px;
+    padding: 44px 40px 40px;
+    box-sizing: border-box;
+    text-align: center;
+    background: #f7f7f7;
+}
+
+#gray_wrap>p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333333;
+    line-height: 32px;
+    letter-spacing: -1px;
+}
+
+.gray_sns {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.sns_link {
+    background-color: #fff;
+    margin: 5px;
+    padding: 0 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #888888;
+    line-height: 58px;
+    border: 1px solid #ddd;
+}
+
+.sns_link:hover {
+    border: 1px solid #888;
+    transition: all 0.5s ease-in-out;
+}
+
+.kakao::before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 17px;
+    margin: 0px 10px -3px 0;
+    background: url(../img/sns-btn-icon-kakao.jpg) no-repeat left center;
+}
+
+.naver::before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 17px;
+    margin: 0px 10px -3px 0;
+    background: url(../img/sns-btn-icon-naver.jpg) no-repeat left center;
+}
+
+/*cust_info_wrap start*/
+#cust_info_wrap {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+
+#cust_info_wrap>aside {
+    float: left;
+    width: 486px;
+    font-size: 50px;
+    font-weight: 300;
+    color: #333333;
+    line-height: 1;
+    letter-spacing: -0.075em;
+}
+
+/*cust_info start*/
+.cust_info {
+    width: calc(100% - 486px);
+}
+
+.cust_info_check {
+    display: flex;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cust_info_check>h3,
+dt {
+    width: 224px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    line-height: 30px;
+    padding: 15px 0;
+}
+
+.cust_info_check>ul {
+    width: calc(100% - 224px);
+}
+
+.cust_info_check>ul>li {
+    padding: 15px 0;
+}
+
+.cust_info_check>ul>li>input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    background: #fff;
+    position: relative;
+    top: 5px;
+}
+
+.cust_info_check>ul>li>label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #666666;
+    line-height: 20px;
+}
+
+.cust_info_check>ul>li>label>span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0890c8;
+    line-height: 20px;
+}
+
+.cust_info_check>ul>li>label>strong {
+    float: right;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    line-height: 2;
+    cursor: pointer;
+}
+
+.cust_info_check>ul>li>label>strong::after {
+    content: "";
+    background: url(../img/select-icon2.png) center right no-repeat;
+    display: inline-block;
+    margin-left: 10px;
+    width: 12px;
+    height: 8px;
+}
+
+#agree>p {
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #666666;
+    line-height: 1;
+}
+
+.cust_info_input {
+    padding: 80px 0;
+}
+
+.cust_info_input>dl {
+    display: flex;
+}
+
+.cust_info_input>dl>dt {
+    width: 224px;
+}
+
+.cust_info_input>dl>dt::after {
+    content: "";
+    display: inline-block;
+    width: 9px;
+    height: 8px;
+    margin: 0 0 5px 5px;
+    background: url(../img/essen-tit-icon.png);
+}
+
+dd {
+    margin: 10px 0;
+}
+
+dd>input[type=text],
+input[type=password] {
+    outline: none;
+    width: 364px;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333333;
+    line-height: 1.2;
+    border: 1px solid #dddddd;
+}
+
+.check_btn {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0 20px;
+    border: 1px solid #666666;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.passsword_rule {
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+
+.passsword_rule>input:first-child {
+    margin-bottom: 15px;
+}
+
+.passsword_rule>p {
+    margin-top: 15px;
+}
+
+.passsword_rule>p::before {
+    content: "";
+    display: inline-block;
+    margin: 0 5px -3px 0;
+    width: 18px;
+    height: 18px;
+    background: url(../img/exc-icon.png) left center no-repeat;
+}
+
+.agree {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.agree>input {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.agree>input:first-child {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 60px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+}
+
+.agree>input:last-child{
+    height: 60px;
+    margin-left: 10px;
+    padding: 0 59px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #888;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid #888;
+}
+
+/*join.php css*/
+
+#join_finish_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#join_finish {
+    text-align: center;
+}
+
+.finish_text > h3 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #333;
+    line-height: 42px;
+    letter-spacing: -0.07em;
+    margin: 30px 0;
+}
+
+.finish_text > p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #666;
+    line-height: 32px;
+}
+
+
+.finish_btn,
+.finish_main_btn {
+    border: 1px solid #333;
+    padding: 0 60px;
+    cursor: pointer;
+}
+
+.finish_btn {
+    margin-top: 50px;
+}
+
+.finish_main_btn {
+    margin-top: 5px;
+}
+
+.finish_btn > a,
+.finish_main_btn > a{
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+/*login.html*/
+.login_btn > input {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    min-width: 404px;
+    width: 100%;
+    height: 52px;
+    padding: 0 59px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    background: #0890c8;
+    cursor: pointer;
+}

@@ -1,0 +1,330 @@
+/*header start*/
+header {
+  width: 100%;
+  padding: 0px 80px;
+  height: 155px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.h_top {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.h_top_btn {
+  height: 100%;
+  display: flex;
+  margin: 20px 0;
+}
+
+.h_top_btn li {
+  padding: 5px 20px;
+}
+
+.join>a {
+  font-size: 15px;
+  font-weight: 400;
+  color: #666;
+  line-height: 36px;
+}
+
+.radius_btn {
+  width: 117px;
+  height: 36px;
+  background-color: #9badb6;
+  border-radius: 36px;
+  text-align: center;
+  /*글자 좌우 가운데 정렬(가로)*/
+  line-height: 36px;
+  /*글자 위아래 가운데 정렬(세로)*/
+}
+
+.radius_btn>a {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.wedding {
+  background-color: #f78091;
+  margin-right: 5px;
+}
+
+.wedding>a {
+  display: block;
+  padding-left: 34px;
+  background-image: url(../img/wedding-icon.png);
+  /*../ -> 상위 폴더로 이동*/
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  /*이미지를 배경으로 넣는 방법*/
+  /*background-repeat: no-repeat; 배경 이미지를 반복하지 않는다*/
+  /*background-position: 가로 세로; !!!!이거는 반대임!!!!*/
+}
+
+.h_bot {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.h_left {
+  width: 40%;
+}
+
+
+.h_left>ul {
+  display: flex;
+}
+
+.h_logo {
+  width: 182px;
+}
+
+.h_right {
+  width: 40%;
+}
+
+.h_right>ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.h_bot li {
+  margin: 10px;
+}
+
+.h_bot a {
+  font-size: 16;
+  font-weight: bold;
+  color: #333;
+  line-height: 36px;
+}
+
+.h_right>ul>.search {
+  width: 17px;
+  height: 18px;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-indent: -9999px;
+  /*글자를 안보이게 위로 보내버림*/
+  background-image: url(../img/gnb-search-btn.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.h_right>ul>.nav {
+  width: 26px;
+  height: 18px;
+  margin-top: 20px;
+  padding-right: 0px;
+  text-indent: -9999px;
+  /*글자를 안보이게 위로 보내버림*/
+  background-image: url(../img/all-menu-btn.png);
+  background-repeat: no-repeat;
+}
+
+/*js css start*/
+ul.sub {
+  overflow: hidden;
+}
+
+ul.sub>li {
+  margin: 10px 0;
+}
+
+ul.sub>li>a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #666;
+  letter-spacing: -0.025em;
+  line-height: 25px;
+}
+
+#search_wrap {
+  width: 100%;
+  /*height: 100px;*/
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_txt {
+  width: 650px;
+  border-bottom: 3px solid #000;
+}
+
+.search_txt>input {
+  width: calc(100% - 50px);
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  line-height: 60px;
+  color: #333;
+  font-weight: 300;
+}
+
+.search_txt span {
+  width: 30px;
+  height: 60px;
+  display: block;
+  float: right;
+  background-image: url(../img/gnb-search-btn-27x28.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.search_close {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  margin: auto;
+  bottom: -20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3)
+}
+
+.search_close>span {
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*top   button*/
+
+#top_wrap {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.top {
+  font-size: 13px;
+  font-weight: bold;
+  color: #333;
+  margin: 20px;
+}
+
+.top_btn {
+  width: 80px;
+  height: 80px;
+  background-color: #f0f0f0;
+  color: #666;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 80px;
+  cursor: pointer;
+}
+
+.top_btn:hover {
+  background-color: #0890c0;
+  color: #fff;
+}
+
+/*footer start*/
+footer {
+  width: 100%;
+  padding: 60px 80px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.f_nav>ul {
+  display: flex;
+}
+
+.f_nav>ul>li {
+  padding-right: 45px;
+}
+
+.f_nav>ul>li>a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  line-height: 36px;
+}
+
+.f_nav>ul>li>.priv {
+  color: #0890c0;
+  font-weight: bold;
+}
+
+.adress {
+  font-size: 14px;
+  font-weight: 400;
+  color: #777;
+}
+
+#f_right {
+  width: 240px;
+  height: 48px;
+  border-bottom: 2px solid #000;
+  position: relative;
+}
+
+#f_right>div {
+  padding: 15px 0px;
+}
+
+#family_click {
+  font-size: 16px;
+  font-weight: 300;
+  color: #333333;
+  line-height: 1;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+}
+
+#family_btn {
+  width: 10px;
+  height: 10px;
+  margin-top: 8px;
+  display: block;
+  float: right;
+  background-image: url(../img/select-icon2-on.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.famliy_site_box {
+  width: 100%;
+  height: 170px;
+  padding: 14px 20px;
+  box-sizing: border-box;
+  background-color: #000;
+  position: absolute;
+  top: -250%;
+  cursor: pointer;
+}
+
+.famliy_site_box_span {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 26px;
+  box-sizing: border-box;
+  font-weight: 300;
+  color: #fff;
+  line-height: 1;
+}
+
+#eng_btn {
+  padding-top: 0;
+}
+
+#family_site_box_btn {
+  width: 10px;
+  height: 10px;
+  margin-top: -12px;
+  float: right;
+  background-image: url(../img/select-icon2-wht-on.png);
+  background-repeat: no-repeat;
+  background-position: top;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>회원가입-자바스크립트</title>
+<script>
+   function validate() {
+       var re = /^[a-zA-Z0-9]{4,12}$/ // 아이디와 패스워드가 적합한지 검사할 정규식
+       var re2 = /^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$/i;
+       // 이메일이 적합한지 검사할 정규식
+
+       
+       var pw = document.getElementById("pw");                           
+
+       if(join.pw.value != join.checkpw.value) {
+           alert("비밀번호가 다릅니다. 다시 확인해 주세요.");
+           join.checkpw.value = "";
+           join.checkpw.focus();
+           return false;
+       }
+      }     
+</script>
+</head>
+<body>
+<h1 text-align="center" style="font-size:50px;"><font color="navy"><b>SIGN UP</b></font></h1>
+<form name="join" onsubmit="return validate();" enctype="text/plain" action="http://coding-factory.tistory.com/196" method="post" >
+   <table width="600" height="400" border="1" align="center" cellspacing="0">
+       <tr text-align="center">
+           <td colspan="2">회원기본정보</td>
+       </tr>
+       <tr>
+           <td><b>아이디:</b></td>
+           <td><input type="text" id="id" name="id" maxlength="12" /> ※4-12자의 영문 대소문자와 숫자로만 입력</td>
+       </tr>
+       <tr>
+           <td><b>비번:</b></td>
+           <td><input type="password"  id="pw" maxlength="12"/> ※4-12자의 영문 대소문자와 숫자로만 입력</td>
+       </tr>
+       <tr>
+           <td><b>비번확인:</b></td>
+           <td><input type="password" id="checkpw" maxlength="12"/></td>
+       </tr>      
+   </table>  
+       <br/>
+       <input type="submit" value="회원가입" style="border-radius:5px; "/>
+       <input type="reset" value="다시입력" style="border-radius:5px" />
+</form>
+</body>
+</html>

@@ -1,0 +1,83 @@
+main>h2 {
+    margin: 103px 0 63px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    color: #333;
+    line-height: 80px;
+    letter-spacing: -1px;
+}
+
+section {
+    width: 100%;
+    padding: 80px 0 160px 0;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+article {
+    margin: auto;
+    text-align: center;
+}
+
+article>h3 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #333333;
+    line-height: 42px;
+    letter-spacing: -2px;
+}
+
+article>h4 {
+    padding: 18px 0 54px;
+    letter-spacing: -1px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #666666;
+    line-height: 30px;
+}
+
+#member_wrap {
+    display: flex;
+    justify-content: center;
+}
+
+#member_wrap img {
+    border: 1px solid #ebebeb;
+    border-radius: 50%;
+}
+
+#member_wrap p {
+    margin: 36px 0 13px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    line-height: 1;
+}
+
+.single_member {
+    cursor: pointer;
+    position: relative;
+}
+
+.single_icon {
+    position: absolute;
+}
+
+.single_icon_on {
+    border: 1px solid #0890c0 !important;
+    box-shadow: 0px 10px 20px #c9c9c9;
+    opacity: 0;
+}
+
+.wedding_member {
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.wedding_member>span {
+    font-size: 16px;
+    font-weight: 300;
+    color: #aaaaaa;
+    line-height: 26px;
+}

@@ -1,0 +1,130 @@
+/*event_announce start*/
+#announce_wrap {
+    width: 1000px;
+    margin: auto;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+}
+
+#announce_wrap>article:first-child {
+    width: 100%;
+    padding-bottom: -20px;
+}
+
+#announce_wrap>article>h3 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #333;
+    line-height: 42px;
+    letter-spacing: -0.07em;
+    margin-bottom: 24px;
+}
+
+#announce_wrap>article>span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #aaa;
+    line-height: 1;
+    letter-spacing: 1.5px;
+}
+
+#text_area {
+    margin-top: 60px;
+    width: 100%;
+}
+
+.greetings {
+    margin-bottom: 72px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #666;
+    line-height: 32px;
+}
+
+table {
+    width: 100%;
+}
+
+tr,
+td {
+    width: 33.333%;
+    height: 32px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #666;
+    line-height: 32px;
+    text-align: left;
+}
+
+/*event_announce_txt start*/
+form {
+    width: 1000px;
+    margin: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+form>label {
+    display: inline-block;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    padding: 15px 0;
+}
+
+form>input {
+    border: none;
+    outline: none;
+    background: none;
+    width: calc(100% - 250px);
+    height: 50px;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333333;
+    line-height: 1.2;
+    border: 1px solid #dddddd;
+}
+
+form>textarea {
+    width: calc(100% - 3px);
+    height: 500px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333333;
+    line-height: 1.2;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+form>textarea::placeholder {
+    font-size: 18px;
+    font-weight: 300;
+    color: #ebebeb;
+}
+
+.button_list {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.button_list>input {
+    border: none;
+    outline: none;
+    background: none;
+    color: #333;
+    border: 1px solid #333;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+    padding: 0 60px;
+    cursor: pointer;
+}
